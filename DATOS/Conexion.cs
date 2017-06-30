@@ -24,15 +24,6 @@ namespace DATOS
             SqlConnection cn = null;
             try
             {
-                //string conn = ConfigurationManager.ConnectionStrings["Pichincha"].ConnectionString;
-
-                //XmlTextReader reader = new XmlTextReader("ConfigReporter.xml");
-                //XmlDocument xDoc = new XmlDocument();
-                //xDoc.Load("ConfigReporter.xml");
-
-                //XmlNodeList xConection = xDoc.GetElementsByTagName("ConectionString");
-                //String conectString = xConection[0].InnerText;
-
                 String conn = "Server=192.168.100.32;Database=" + this.BD_NAME + ";User Id=usraccmw; password=inc2001;encrypt=false";
                 cn = new SqlConnection(conn);
                 
@@ -40,6 +31,22 @@ namespace DATOS
             catch (Exception ex)
             {
                 
+            }
+            return cn;
+        }
+
+        public SqlConnection Conectar_master()
+        {
+            SqlConnection cn = null;
+            try
+            {
+                String conn = "Server=192.168.100.32;Database=Master;User Id=usraccmw; password=inc2001;encrypt=false";
+                cn = new SqlConnection(conn);
+
+            }
+            catch (Exception ex)
+            {
+
             }
             return cn;
         }
