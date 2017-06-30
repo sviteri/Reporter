@@ -40,7 +40,7 @@ namespace DATOS
             SqlConnection cn = null;
             try
             {
-                String conn = "Server=192.168.100.32;Database=Master;User Id=usraccmw; password=inc2001;encrypt=false";
+                String conn = "Server=192.168.100.32;Database=master;User Id=usraccmw; password=inc2001;encrypt=false";
                 cn = new SqlConnection(conn);
 
             }

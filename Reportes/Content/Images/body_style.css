@@ -1,0 +1,7 @@
+﻿.container-fluid {
+    background-image: url("logo1.png");
+    background-position-y:top;
+    background-position-x: right;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}

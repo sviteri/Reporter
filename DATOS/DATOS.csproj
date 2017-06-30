@@ -42,6 +42,7 @@
     <Compile Include="Administracion_model.cs" />
     <Compile Include="BPMultiOferta_model.cs" />
     <Compile Include="Conexion.cs" />
+    <Compile Include="IESS\IESS_ReportesModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reportes_model.cs" />
   </ItemGroup>

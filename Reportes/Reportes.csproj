@@ -158,15 +158,42 @@
     <Content Include="Account\RegisterExternalLogin.aspx" />
     <Content Include="BPMO\BP_MultiOferta.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="Content\admin_template\css\bootstrap-rtl.css" />
+    <Content Include="Content\admin_template\css\bootstrap-rtl.min.css" />
+    <Content Include="Content\admin_template\css\bootstrap.css" />
+    <Content Include="Content\admin_template\css\bootstrap.min.css" />
+    <Content Include="Content\admin_template\css\plugins\morris.css" />
+    <Content Include="Content\admin_template\css\sb-admin-rtl.css" />
+    <Content Include="Content\admin_template\css\sb-admin.css" />
+    <Content Include="Content\admin_template\font-awesome\css\font-awesome.css" />
+    <Content Include="Content\admin_template\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Content\admin_template\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\admin_template\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\admin_template\js\bootstrap.js" />
+    <Content Include="Content\admin_template\js\bootstrap.min.js" />
+    <Content Include="Content\admin_template\js\jquery.js" />
+    <Content Include="Content\admin_template\js\plugins\flot\excanvas.min.js" />
+    <Content Include="Content\admin_template\js\plugins\flot\flot-data.js" />
+    <Content Include="Content\admin_template\js\plugins\flot\jquery.flot.js" />
+    <Content Include="Content\admin_template\js\plugins\flot\jquery.flot.pie.js" />
+    <Content Include="Content\admin_template\js\plugins\flot\jquery.flot.resize.js" />
+    <Content Include="Content\admin_template\js\plugins\flot\jquery.flot.tooltip.min.js" />
+    <Content Include="Content\admin_template\js\plugins\morris\morris-data.js" />
+    <Content Include="Content\admin_template\js\plugins\morris\morris.js" />
+    <Content Include="Content\admin_template\js\plugins\morris\morris.min.js" />
+    <Content Include="Content\admin_template\js\plugins\morris\raphael.min.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome\css\font-awesome.css" />
     <Content Include="Content\font-awesome\css\font-awesome.min.css" />
     <Content Include="Content\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\font-awesome\HELP-US-OUT.txt" />
+    <Content Include="Content\Images\body_style.css" />
     <Content Include="Content\Images\cargando.gif" />
     <Content Include="Content\Images\cargando2.gif" />
     <Content Include="Content\Images\cargando3.gif" />
+    <Content Include="Content\Images\logo1.png" />
+    <Content Include="Content\Images\logo_IESS.png" />
     <Content Include="Content\Images\logo_partners.png" />
     <Content Include="Content\jquery\AUTHORS.txt" />
     <Content Include="Content\jquery\external\jquery\jquery.js" />
@@ -200,6 +227,7 @@
     <Content Include="Content\spin.js" />
     <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="formularios\IESS\IESSBienvenida.aspx" />
     <Content Include="Inconcert.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -240,6 +268,41 @@
     <Content Include="Content\font-awesome\scss\_stacked.scss" />
     <Content Include="Content\font-awesome\scss\_variables.scss" />
     <Content Include="Content\jquery\package.json" />
+    <Content Include="formularios\IESS\IESS.Master" />
+    <Content Include="Content\admin_template\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\admin_template\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\admin_template\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\admin_template\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Content\admin_template\font-awesome\less\bordered-pulled.less" />
+    <Content Include="Content\admin_template\font-awesome\less\core.less" />
+    <Content Include="Content\admin_template\font-awesome\less\fixed-width.less" />
+    <Content Include="Content\admin_template\font-awesome\less\font-awesome.less" />
+    <Content Include="Content\admin_template\font-awesome\less\icons.less" />
+    <Content Include="Content\admin_template\font-awesome\less\larger.less" />
+    <Content Include="Content\admin_template\font-awesome\less\list.less" />
+    <Content Include="Content\admin_template\font-awesome\less\mixins.less" />
+    <Content Include="Content\admin_template\font-awesome\less\path.less" />
+    <Content Include="Content\admin_template\font-awesome\less\rotated-flipped.less" />
+    <Content Include="Content\admin_template\font-awesome\less\spinning.less" />
+    <Content Include="Content\admin_template\font-awesome\less\stacked.less" />
+    <Content Include="Content\admin_template\font-awesome\less\variables.less" />
+    <Content Include="Content\admin_template\font-awesome\scss\font-awesome.scss" />
+    <Content Include="Content\admin_template\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Content\admin_template\font-awesome\scss\_core.scss" />
+    <Content Include="Content\admin_template\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Content\admin_template\font-awesome\scss\_icons.scss" />
+    <Content Include="Content\admin_template\font-awesome\scss\_larger.scss" />
+    <Content Include="Content\admin_template\font-awesome\scss\_list.scss" />
+    <Content Include="Content\admin_template\font-awesome\scss\_mixins.scss" />
+    <Content Include="Content\admin_template\font-awesome\scss\_path.scss" />
+    <Content Include="Content\admin_template\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Content\admin_template\font-awesome\scss\_spinning.scss" />
+    <Content Include="Content\admin_template\font-awesome\scss\_stacked.scss" />
+    <Content Include="Content\admin_template\font-awesome\scss\_variables.scss" />
+    <Content Include="Content\admin_template\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\admin_template\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\admin_template\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\admin_template\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Properties\PublishProfiles\Reportes.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -355,6 +418,20 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="formularios\IESS\IESS.Master.cs">
+      <DependentUpon>IESS.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="formularios\IESS\IESS.Master.designer.cs">
+      <DependentUpon>IESS.Master</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\IESS\IESSBienvenida.aspx.cs">
+      <DependentUpon>IESSBienvenida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="formularios\IESS\IESSBienvenida.aspx.designer.cs">
+      <DependentUpon>IESSBienvenida.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TDCAdicional.aspx.cs">
       <DependentUpon>TDCAdicional.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -400,6 +477,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="formularios\Pichincha\" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="ADODB">
