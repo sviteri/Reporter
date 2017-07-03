@@ -47,7 +47,20 @@
             <script src="~/Content/monitor/response-monitor.js" runat="server"></script>
             <script src="~/Content/monitor/response-monitor.min.js" runat="server"></script>--%>
             <%--<script src="../../Content/admin_template/js/jquery.js"></script>--%>
-            <script src="../../Content/admin_template/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+              <link rel="stylesheet" href="/resources/demos/style.css" />
+              <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+              <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+              <script>
+                  $(function () {
+                      $(".datepicker").datepicker();
+                      $(".datepicker").on("change", function () {
+                          
+                          $(".datepicker").datepicker("option", "dateFormat", 'yy-mm-dd');
+                          
+                      });
+                  });
+              </script>
 
              <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->

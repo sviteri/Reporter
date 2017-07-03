@@ -7,8 +7,8 @@
         }
     </style>
   <div class="">
-        <h2>Generador de Reportes</h2>
-        <p>Campaña Tarjeta de Credito Adicional <strong>Banco Pichincha</strong></p>
+        <h1>Campaña Tarjeta de Credito Adicional</h1>
+        <p> Banco Pichincha</p>
 
         <asp:LinkButton ID="btn_generar_Reporte" ClientIDMode="Static" runat="server" CssClass="btn btn-success" 
             OnClick="btn_generar_Reporte_Click" >
@@ -19,9 +19,6 @@
         </div>
 
       <asp:GridView ID="gv_test" runat="server"></asp:GridView>
-
-        
-    
         <div class="alert alert-success" runat="server" visible="false" id="div_mensaje">
             <asp:Label Text="" runat="server" ID="lbl_mensaje" />
         </div>

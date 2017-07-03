@@ -9,8 +9,8 @@
             <td>
                 <asp:TextBox ID="txt_limite" runat="server" CssClass="form-control" TextMode="Number"></asp:TextBox>
             </td>
-            <td>Agente:</td>
-            <td>
+            <td style="display:none;">Agente:</td>
+            <td style="display:none;">
                 <asp:TextBox ID="txt_agente" runat="server" CssClass="form-control"></asp:TextBox>
             </td>
             <td>
@@ -23,7 +23,7 @@
         <tr>
             <td colspan="5">
                 <div class="alert alert-primary">
-                    <i class="fa fa-info-circle"></i> Use los filtros solo en caso de que los necesite
+                    <i class="fa fa-info-circle"></i> Para extraer la Base de datos Total Puede dejar el limite en Blanco
                 </div>
             </td>
         </tr>

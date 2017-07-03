@@ -405,7 +405,7 @@ namespace DATOS
                         objs[2] = item.ResultLevel1 + String.Empty;
                         objs[3] = item.ResultLevel2 + String.Empty;
                         objs[4] = item.ResultLevel3 + String.Empty;
-                        objs[5] = item.TmStmp + String.Empty;
+                        objs[5] = DateTime.Parse(item.TmStmp).ToString("yyyy-MM-dd") + String.Empty;
                         objs[6] = item.CampaignId + String.Empty;
                         objs[7] = item.Observaciones + String.Empty;
                         objs[8] = item.Cedula + String.Empty;

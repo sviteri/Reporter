@@ -57,7 +57,8 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/"> Reporte Banco Pichincha</a></li>
+                        <li><a runat="server" href="~/TDCAdicional.aspx"> TDC Adicional</a></li>
+                        <li><a runat="server" href="~/BPMO/BP_MultiOferta.aspx"> Multi Oferta</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#"><asp:Label Text="" ID="lbl_usuario" runat="server" /></a>
